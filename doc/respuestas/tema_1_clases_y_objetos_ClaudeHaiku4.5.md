@@ -91,7 +91,7 @@ Un **método** es una función que pertenece a una clase y opera sobre los datos
 
 La **sobrecarga de métodos** permite definir varios métodos con el mismo nombre en una clase, siempre que tengan diferentes firmas (diferentes parámetros en tipo o cantidad). Por ejemplo, se podría tener un método `suma(int a, int b)` y otro `suma(double a, double b)`. Cuando se llama al método, Java determina automáticamente cuál ejecutar según el tipo y número de argumentos proporcionados.
 
-Esto proporciona una interfaz más intuitiva para el usuario de la clase, ya que puede llamar a métodos con el mismo nombre para operaciones similares sin importar los tipos de datos específicos. En C, esto se lograría creando funciones con nombres diferentes como `suma_int()` y `suma_double()`, lo que es más tedioso.
+Esto proporciona una interfaz más intuitiva para el usuario de la clase, ya que puede llamar a métodos que tengan el mismo nombre para operaciones similares sin importar los tipos de datos específicos. En C, esto se lograría creando funciones con nombres diferentes como `suma_int()` y `suma_double()`, lo que es más tedioso.
 
 
 ## 8. Ejemplo mínimo de clase en Java, que se llame Punto, con dos atributos, x e y, con un método que se llame `calculaDistanciaAOrigen`, que calcule la distancia a la posición 0,0. Por sencillez, los atributos deben tener visibilidad por defecto. Crea además un ejemplo de uso con una instancia y uso del método
